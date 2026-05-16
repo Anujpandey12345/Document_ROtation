@@ -41,7 +41,7 @@ def rotate_image(image, angle):
 
 def process_image(image_path):
     try:
-        print("\n=================================")
+        print("\n================================")
         print("Processing:", image_path)
         filename = os.path.basename(image_path)
         logger.info(f"Processing started: {filename}")
